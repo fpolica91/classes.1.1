@@ -41,6 +41,10 @@ class Rectangle{
     int getBreadth(){
       return breadth;
     }
+    
+    ~Rectangle(){
+      cout<<"Destructor"<<endl;
+    }
 
 };
 
