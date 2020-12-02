@@ -40,7 +40,9 @@ template <class T>
  int start(){
 
    Generic<int> gen(10,5);
+   Generic<float> gen2(2.2,3.3);
    cout<<gen.add()<<endl;
+   cout<<gen2.add()<<endl;
 
    return 0;
  }
