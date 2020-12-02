@@ -36,3 +36,11 @@ template <class T>
    c = a - b;
    return c;
  }
+
+ int start(){
+
+   Generic<int> gen(10,5);
+   cout<<gen.add()<<endl;
+
+   return 0;
+ }

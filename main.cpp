@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "monolitic.h"
 #include "object_oriented.h"
+#include "generic_class.h"
 #include "modular.h"
 using namespace std;
 
@@ -53,8 +54,10 @@ class Rectangle{
 int main() {
   Rectangle r(10, 5);
   int area = r.area();
+
   // monolitic();
-  modular();
+  // modular();
+  start();
   object_oriented();
   
 }
