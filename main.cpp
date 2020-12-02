@@ -27,13 +27,20 @@ class Rectangle{
     breadth = b;
   }
 
-   int area(){
-    return length * breadth;
-  }
+    int area(){
+      return length * breadth;
+    }
 
-  void changeLength(int l){
-    length = l;
-  }
+    void setLength(int l){
+      length = l;
+    }
+    int getLength(){
+      return length;
+    }
+
+    int getBreadth(){
+      return breadth;
+    }
 
 };
 
